@@ -22,10 +22,12 @@
     <!-- HTML goes here -->
     
     <script type="text/javascript">
+    var number = document.querySelector('.fav');
     function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
+    
     }
-    console.log(getRandomArbitrary(1,10))
+    number.innerHTML = getRandomArbitrary(1,10).toFixed();
 	</script>
 </body>
 </html>
