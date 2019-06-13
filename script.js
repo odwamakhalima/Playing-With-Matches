@@ -12,10 +12,12 @@ number3.innerHTML = getRandomArbitrary(1,9).toFixed();
 if(number.innerHTML == number3.innerHTML){
     number.classList.add("highlight");
     number3.classList.add("highlight");
+    mes.innerHTML = number3.innerHTML;
 }
 if(number.innerHTML == number2.innerHTML){
     number.classList.add("highlight");
     number2.classList.add("highlight");
+    mes.innerHTML = number.innerHTML;
 }
 if(number2.innerHTML == number3.innerHTML){
     number3.classList.add("highlight");
