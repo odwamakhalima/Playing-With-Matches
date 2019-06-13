@@ -7,8 +7,24 @@
     <style type="text/css">
     .fav{
         font-family: 'Lato', Helvetica, sans-serif;
-        font-size: 12em;
+        font-size: 4em;
         color : red;
+        float: left;
+        padding: 9px;
+    }
+    .fav2{
+        font-family: 'Lato', Helvetica, sans-serif;
+        font-size: 4em;
+        color : red;
+        float: left;
+        padding: 9px;
+    }
+    .fav3{
+        font-family: 'Lato', Helvetica, sans-serif;
+        font-size: 4em;
+        color : red;
+        float: left;
+        padding: 9px;
     }
 	/* CSS goes here */
 	</style>
@@ -19,15 +35,16 @@
             7
         </h1>
     </div>
+    <div>
+        <div>
+            <h1 class="fav2">8</h1>
+        </div>
+        <div>
+            <h1 class="fav3">4</h1>
+        </div>
+    </div>
     <!-- HTML goes here -->
     
-    <script type="text/javascript">
-    var number = document.querySelector('.fav');
-    function getRandomArbitrary(min, max) {
-    return Math.random() * (max - min) + min;
-    
-    }
-    number.innerHTML = getRandomArbitrary(1,10).toFixed();
-	</script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
